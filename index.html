@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- success-stories.html -->
+<div class="success-stories">
+  <div class="stories-grid">
+    <!-- Карточка истории успеха -->
+    <div class="story-card" data-id="1">
+      <div class="story-card__image">
+        <img src="assets/images/success-1.jpg" alt="Успешный проект" />
+        <div class="story-card__badge">
+          <i class="fas fa-trophy"></i>
+          Успешный кейс
+        </div>
+      </div>
+
+      <div class="story-card__content">
+        <div class="story-card__meta">
+          <span class="story-card__date">Завершен: 15.12.2024</span>
+          <span class="story-card__category">Digital трансформация</span>
+        </div>
+        <h3 class="story-card__title">Модернизация IT-инфраструктуры для крупной сети</h3>
+        <p class="story-card__excerpt">Повышение эффективности бизнес-процессов на 40% благодаря внедрению современных решений...</p>
+        <div class="story-card__stats">
+          <div class="stat">
+            <span class="stat__value">+40%</span>
+            <span class="stat__label">Эффективность</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">6 мес.</span>
+            <span class="stat__label">Срок реализации</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="story-card" data-id="2">
+      <div class="story-card__image">
+        <img src="assets/images/success-2.jpg" alt="Успешный проект" />
+        <div class="story-card__badge">
+          <i class="fas fa-chart-line"></i>
+          Рост бизнеса
+        </div>
+      </div>
+
+      <div class="story-card__content">
+        <div class="story-card__meta">
+          <span class="story-card__date">Завершен: 10.11.2024</span>
+          <span class="story-card__category">Веб-разработка</span>
+        </div>
+        <h3 class="story-card__title">Разработка платформы для онлайн-образования</h3>
+        <p class="story-card__excerpt">Создание масштабируемой образовательной экосистемы с поддержкой 50,000+ пользователей...</p>
+        <div class="story-card__stats">
+          <div class="stat">
+            <span class="stat__value">50K+</span>
+            <span class="stat__label">Пользователей</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">4 мес.</span>
+            <span class="stat__label">Срок реализации</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Добавьте больше карточек по аналогии -->
+  </div>
+</div>
+
+<!-- Страница отдельной истории -->
+<div class="success-story-page" id="success-story-page" style="display: none">
+  <div class="story-header">
+    <button class="back-button md-button md-button--text" id="back-to-stories">
+      <i class="fas fa-arrow-left"></i>
+      <span>Назад к историям</span>
+    </button>
+
+    <div class="story-navigation">
+      <button class="nav-button prev-story" id="prev-story">
+        <i class="fas fa-chevron-left"></i>
+        <span>Предыдущий проект</span>
+      </button>
+      <button class="nav-button next-story" id="next-story">
+        <span>Следующий проект</span>
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <article class="story-detail" id="story-detail">
+    <!-- Контент будет загружаться динамически -->
+  </article>
+
+  <div class="story-actions">
+    <button class="cta-button md-button" id="want-same">
+      <i class="fas fa-star"></i>
+      <span>Хочу так же!</span>
+    </button>
+  </div>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
